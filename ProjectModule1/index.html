@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.2/css/all.min.css" integrity="sha512-1sCRPdkRXhBV2PBLUdRb4tMg1w2YPf37qatUFeS7zlBy7jJI8Lf4VHwWfZZfpXtYSLy85pkm9GaYVYMfw5BC1A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="style.css" />
+    <title>Document</title>
+    <style>
+      /* width */
+      ::-webkit-scrollbar {
+        width: 6px;
+        margin-right: 1000px;
+      }
+
+      /* Track */
+      ::-webkit-scrollbar-track {
+        background: #F0F2F5;
+        
+        
+      }
+      ::-webkit-resizer {
+        width: 100px;
+      }
+
+      /* Handle */
+      ::-webkit-scrollbar-thumb {
+        background: #bcc0c4;
+        border-radius: 999px;
+        opacity: 0.5;
+        
+      }
+
+      /* Handle on hover */
+      ::-webkit-scrollbar-thumb:hover {
+        background: #bcc0c4;
+      }
+      ::-webkit-scrollbar-track:hover {
+        background: #e5e8eb;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="layout">
+      <div class="first-bar">
+        <div>
+          <ul class="nav-bar">
+            <li class="item"><img class="av" src="./img/mZu.jpg" alt="" /><div><span class="wu">Mark Zuckerberg</span></div> </li>
+            <li class="item"><img class="icon" src="./img/Friends.png" alt="" /> <div><span class="wu">Friends</span></div> </li>
+            <li class="item"><img class="icon" src="./img/Groups.png" alt="" /><div><span class="wu">Groups</span></div> </li>
+            <li class="item">
+              <img class="icon" src="./img/Adcenter.png" alt="" /> <div><span class="wu">Ad Center</span></div> 
+            </li>
+            <li class="item">
+              <img class="icon" src="./img/Marketplace.png" alt="" /><div><span class="wu"> Marketplace</span></div>
+            </li>
+            <li class="item"><img class="icon" src="./img/Watch.png" alt="" /><div><span class="wu"> Watch</span></div></li>
+            <li class="item">
+              <img class="icon" src="./img/Memories.png" alt="" /> <div><span class="wu"> Memories</span></div>
+            </li>
+            <li class="item"><img class="icon" src="./img/Saved.png" alt="" /> <div><span class="wu"> Saved</span></div></li>
+            <span id="dots"></span>
+            <span id="more">
+            <li class="item"><img class="icon" src="./img/Adsmanager.png" alt=""><div><span class="wu"> Ads Manager</span></div></li>
+            <li class="item"><img class="icon" src="./img/blood.png" alt=""><div><span class="wu"> Blood Donations</span></div></li>
+            <li class="item"><img class="icon" src="./img/climatesc.png" alt=""><div><span class="wu"> Climate Science Center</span></div></li>
+            <li class="item"><img class="icon" src="./img/crisisr.png" alt=""><div><span class="wu"> Crisis response</span></div></li>
+            <li class="item"><img class="icon" src="./img/EH.png" alt=""><div><span class="wu"> Emotional Health</span></div></li>
+            <li class="item"><img class="icon" src="./img/Events.png" alt=""><div><span class="wu"> Events</span></div></li>
+            <li class="item"><img class="icon" src="./img/FP.png" alt=""><div><span class="wu"> Facebook Pay</span></div></li>
+            <li class="item"><img class="icon" src="./img/Favorites.png" alt=""><div><span class="wu"> Favorites</span></div></li>
+            <li class="item"><img class="icon" src="./img/Fundraisers.png" alt=""><div><span class="wu">Fundraisers</span></div></li>
+            <li class="item"><img class="icon" src="./img/Gamingv.png" alt=""><div><span class="wu"> Gaming Video</span></div></li>
+            <li class="item"><img class="icon" src="./img/Livev.png" alt=""><div><span class="wu"> Live videos</span></div></li>
+            <li class="item"><img class="icon" src="./img/Messenger.png" alt=""><div><span class="wu"> Messenger</span></div></li>
+            <li class="item"><img class="icon" src="./img/Messengerk.png" alt=""><div><span class="wu"> Messenger Kids</span></div></li>
+            <li class="item"><img class="icon" src="./img/MostRecent.png" alt=""><div><span class="wu"> Most Recent</span></div></li>
+            <li class="item"><img class="icon" src="./img/Pages.png" alt=""><div><span class="wu"> Pages</span></div></li>
+            <li class="item"><img class="icon" src="./img/PlayGames.png" alt=""><div><span class="wu"> Play Games</span></div></li>
+            <li class="item"><img class="icon" src="./img/Recentadactivity.png" alt=""><div><span class="wu"> Recent ad activity</span></div></li>
+          </span>
+          <!-- <li onclick="myFunction()" id="myBtn" class="item"><div><p class="round"></p><i class="fa-solid fa-angle-down"></i></div>See more</li> -->
+          <li onclick="myFunction()" id="myBtn" class="item">
+            <div id="round-btn">
+              <i id ="c" class="fa-solid fa-angle-down"></i>
+            </div>
+            <span id="s">See more</span>
+          </li>
+        </ul>
+          
+          </div>
+          <div class="btn-edit">
+            <p class="gach"></p>
+            <span><h3 class="short">Your shortcuts</h2>
+            </span>
+            <span class="edit">Edit</span>
+            <ul class="nav-bar-1">
+              <li class="item"><div class="pce"><img class="picture-group" src="./img/RA.jpg" alt=""><div class="st"><span>[RA] Khóa học lập trình - Code là phải trâu [220725]</span></div></div></li>
+              <li class="item"><div class="pce"><img class="picture-group" src="./img/cff.jpg" alt=""><div class="st"><span>Code cho tương lai</span></div></div></li>
+              <li class="item"><div class="pce"><img class="picture-group" src="./img/ddtc.jpg" alt=""><div class="st"><span>Đường đến thành công</span></div></div></li>
+
+            </ul>
+          </div>
+          <div>
+            <span class="detail"><a href="#">Privacy</a><a href="#">Terms</a><a href="#">Advertising</a>
+            <a href="#">Ad Choices</a><a href="#">Cookies</a>
+            <div class="end">
+              More Meta &copy; 2022
+            </div>
+            </span>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <script src="./app.js"></script>
+  </body>
+</html>
